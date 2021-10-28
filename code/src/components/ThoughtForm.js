@@ -2,7 +2,7 @@ import React from "react";
 
 const ThoughtForm = ({ onFormSubmit, newThought, setNewThought }) => {
   return (
-    <form onSubmit={onFormSubmit}>
+    <form className="form" onSubmit={onFormSubmit}>
       <label htmlFor="newThought">Type your thought</label>
       <input
         id="newThought"

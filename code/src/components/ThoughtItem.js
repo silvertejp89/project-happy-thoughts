@@ -3,7 +3,7 @@ import moment from "moment";
 
 const ThoughtItem = ({ thought, onLikesIncrease }) => {
   return (
-    <div>
+    <div className="thought-item">
       <p>{thought.message}</p>
       <button onClick={() => onLikesIncrease(thought._id)}>
         &hearts; {thought.hearts}

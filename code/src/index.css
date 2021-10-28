@@ -12,6 +12,25 @@ code {
     monospace;
 }
 
+body {
+  font-family: Roboto mono;
+  font-weight: 400;
+}
+
+/* --------------form--------------- */
+
+/* -------------thought items----------- */
+
+.thought-item{
+  width: 330px;
+  background-color: #fff;
+  border: 1px solid #7A7979;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 8px 8px #333;
+}
+
+
 .date {
   font-style: italic;
 }
