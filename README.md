@@ -1,13 +1,11 @@
 # Happy Thoughts
 
-Replace this readme with your own information about your project.
-
-Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
-
+This project was to practice my React state skills by fetching and posting data to an API. The user can read and post messages and like others posts.
 ## The problem
 
-Describe how you approached to problem, and what tools and techniques you used to solve it. How did you plan? What technologies did you use? If you had more time, what would be next?
+I divided the code into components with different responsibilities and fetched the posts that were already in the API, build a form for new posts and a send button etc. 
+If I had more time I would add a counter for the characters. 
 
 ## View it live
 
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+https://kriss-happy-thoughts.netlify.app/
