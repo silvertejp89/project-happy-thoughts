@@ -10,7 +10,7 @@ export const App = () => {
   //-----temporary alert------------------
    useEffect(() => {
     const handleLoad = () => {
-      alert('Welcome to My React App!');
+      alert('🛠️ Database Offline: Our website is currently undergoing maintenance. We'll be back soon! Thank you for your patience.');
     };
 
     window.onload = handleLoad;
