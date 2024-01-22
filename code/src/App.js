@@ -1,4 +1,4 @@
-!import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import ThoughtForm from "./components/ThoughtForm";
 import ThoughtItem from "./components/ThoughtItem";
