@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+!import React, { useEffect, useState } from "react";
 
 import ThoughtForm from "./components/ThoughtForm";
 import ThoughtItem from "./components/ThoughtItem";
@@ -10,7 +10,7 @@ export const App = () => {
   //-----temporary alert------------------
    useEffect(() => {
     const handleLoad = () => {
-      alert('🛠️ Database Offline: the website is currently undergoing maintenance, but feel free to check out the code on github in the meantim');
+      alert('🛠️ Database Offline: the website is currently undergoing maintenance, but feel free to check out the code on github in the meantime!');
     };
 
     window.onload = handleLoad;
