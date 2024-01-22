@@ -7,6 +7,20 @@ import LoadingItem from "./components/Loading";
 import { API_URL, LIKES_URL } from "./utils/urls";
 
 export const App = () => {
+  //-----temporary alert------------------
+   useEffect(() => {
+    const handleLoad = () => {
+      alert('Welcome to My React App!');
+    };
+
+    window.onload = handleLoad;
+
+    // Clean up the event listener on component unmount
+    return () => {
+      window.onload = null;
+    };
+  }, []);
+  //------------------------------------------
   const [thoughts, setThoughts] = useState([]);
   const [newThought, setNewThought] = useState("");
   const [loading, setLoading] = useState(false);
